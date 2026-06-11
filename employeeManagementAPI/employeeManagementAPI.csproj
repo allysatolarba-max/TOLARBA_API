@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EmployeeManagementAppService">
+      <HintPath>..\..\..\OneDrive\Documents\tolarba\infomanagemnt_allysa\EmployeeManagementAppService\bin\Debug\net8.0\EmployeeManagementAppService.dll</HintPath>
+    </Reference>
+    <Reference Include="EmployeeManagementDataService">
+      <HintPath>..\..\..\OneDrive\Documents\tolarba\infomanagemnt_allysa\EmployeeManagementAppService\bin\Debug\net8.0\EmployeeManagementDataService.dll</HintPath>
+    </Reference>
+    <Reference Include="EmployeeManagementModels">
+      <HintPath>..\..\..\OneDrive\Documents\tolarba\infomanagemnt_allysa\EmployeeManagementAppService\bin\Debug\net8.0\EmployeeManagementModels.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
